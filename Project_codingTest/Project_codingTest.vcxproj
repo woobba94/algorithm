@@ -153,6 +153,7 @@
     <ClCompile Include="baekjoon_step_2_01.cpp" />
     <ClCompile Include="baekjoon_step_2_02.cpp" />
     <ClCompile Include="baekjoon_step_2_03.cpp" />
+    <ClCompile Include="baekjoon_step_2_04.cpp" />
     <ClCompile Include="programmers_step_1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
