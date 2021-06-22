@@ -18,25 +18,37 @@
     <ClCompile Include="programmers_step_1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon_step_1_1.cpp">
+    <ClCompile Include="baekjoon_step_1_01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon_step_1_2.cpp">
+    <ClCompile Include="baekjoon_step_1_02.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon_step_1_3.cpp">
+    <ClCompile Include="baekjoon_step_1_03.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon_step_1_4.cpp">
+    <ClCompile Include="baekjoon_step_1_04.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon_step_1_5.cpp">
+    <ClCompile Include="baekjoon_step_1_05.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon_step_1_6.cpp">
+    <ClCompile Include="baekjoon_step_1_06.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon_step_1_7.cpp">
+    <ClCompile Include="baekjoon_step_1_07.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon_step_1_08.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon_step_1_09.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon_step_1_10.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon_step_1_11.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
