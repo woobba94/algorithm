@@ -11,11 +11,22 @@
 //A와 B가 같은 경우에는 '=='를 출력한다.
 //
 //제한
-//- 10, 000 ≤ A, B ≤ 10, 000
+//- 10000 ≤ A, B ≤ 10000
 
 #include <iostream>
 using namespace std;
 
 int main() {
-
+	int a, b;
+	while (1)
+	{
+		cin >> a >> b;
+		if (-10000 <= a && -10000 <= b && a <= 10000 && b <= 10000)
+		{
+			if (a > b) cout << ">";
+			else if (a < b) cout << "<";
+			else cout << "==";
+			break;
+		}
+	}
 }
