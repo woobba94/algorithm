@@ -1,28 +1,28 @@
-#include <iostream>
-using namespace std;
-
-int main()
-{
-	int n;
-	cin >> n;
-	int count = n;
-	int* arr = new int[n];
-
-	for (int i = 0; i < n; i++) {
-
-		cin >> arr[i];
-	}
-
-	for (int i = 0; i < n; i++) {
-		for (int j = 2; j < arr[i]; j++)
-		{
-			if (arr[i] % j == 0)
-			{
-				count--;
-				break;
-			}
-		}		
-	}
-	cout << count;
-}
-
+//#include <iostream>
+//using namespace std;
+//
+//int main()
+//{
+//	int n;
+//	cin >> n;
+//	int count = n;
+//	int* arr = new int[n];
+//
+//	for (int i = 0; i < n; i++) {
+//
+//		cin >> arr[i];
+//	}
+//
+//	for (int i = 0; i < n; i++) {
+//		for (int j = 2; j < arr[i]; j++)
+//		{
+//			if (arr[i] % j == 0)
+//			{
+//				count--;
+//				break;
+//			}
+//		}		
+//	}
+//	cout << count;
+//}
+//
