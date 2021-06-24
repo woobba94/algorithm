@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="baekjoon_step_5_06.cpp" />
     <ClCompile Include="baekjoon_step_1_08.cpp" />
     <ClCompile Include="baekjoon_step_1_01.cpp" />
     <ClCompile Include="baekjoon_step_1_02.cpp" />
