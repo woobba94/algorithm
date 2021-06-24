@@ -180,6 +180,7 @@
     <ClCompile Include="baekjoon_step_5_07.cpp" />
     <ClCompile Include="baekjoon_step_5_08.cpp" />
     <ClCompile Include="baekjoon_step_5_09.cpp" />
+    <ClCompile Include="baekjoon_step_5_10.cpp" />
     <ClCompile Include="debuging_01.cpp" />
     <ClCompile Include="kkk.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
