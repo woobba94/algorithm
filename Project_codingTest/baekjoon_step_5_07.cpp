@@ -32,30 +32,25 @@
 //
 //void sort(char** (&word), int size)
 //{
-//	char temp[50];
+//	char *temp;
 //	for (int i = 0; i < size; i++)
 //	{
-//		for (int j = 0; j < strlen(word[i]) - 1; j++)
+//		
+//		for (int j = 0; j < size - 1; j++)
 //		{
+//			temp = new char[strlen(word[j])]();
 //			if (strlen(word[j]) > strlen(word[j + 1]))
 //			{
 //				//insertCharArr(temp, word[j], strlen(word[j]));
-//				strcpy_s(temp, word[j]);
+//				for (int k = 0; k <= strlen(word[j]); k++)
+//				{
+//					temp[k] = word[j][k];
+//				}
 //				word[j] = word[j + 1];
 //				word[j + 1] = temp;
-//			}
+//			}			
 //		}
 //	}
-//	cout << endl;
-//	cout << "Á¤·Ä ÈÄ/" << endl;
-//	cout << "word[0] : " << word[0] << endl;
-//	cout << "word[1] : " << word[1] << endl;
-//	cout << "word[2] : " << word[2] << endl;
-//	cout << "word[3] : " << word[3] << endl;
-//	cout << "word[4] : " << word[4] << endl;
-//	cout << endl;
-//
-//	
 //}
 //
 //void insertCharArr(char to[], char from[], int fromSize)
