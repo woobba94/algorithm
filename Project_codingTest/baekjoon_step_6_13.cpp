@@ -6,6 +6,9 @@
 //void func(int target, int min, int max);
 //int main()
 //{
+//	cin.tie(NULL);                    // 표준 입출력 설정
+//	ios::sync_with_stdio(false);
+//
 //	int n = 0, m = 0;
 //	vector <int> numbers(n);
 //	vector <int> serchNums(m);
@@ -29,6 +32,7 @@
 //	{
 //		func(serchNums[i], numbers.front(), numbers.back());
 //	}
+//	return 0;
 //}
 //
 //void func(int target, int min, int max)
