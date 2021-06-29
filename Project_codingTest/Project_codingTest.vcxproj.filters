@@ -138,9 +138,6 @@
     <ClCompile Include="baekjoon_step_5_07.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="debuging_01.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="baekjoon_step_5_08.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -214,6 +211,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="baekjoon_step_7_09.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon_step_7_10.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

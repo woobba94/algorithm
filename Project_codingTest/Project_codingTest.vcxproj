@@ -116,7 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <DisableSpecificWarnings>C26451;</DisableSpecificWarnings>
+      <DisableSpecificWarnings>26451;</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -204,7 +204,7 @@
     <ClCompile Include="baekjoon_step_7_06.cpp" />
     <ClCompile Include="baekjoon_step_7_08.cpp" />
     <ClCompile Include="baekjoon_step_7_09.cpp" />
-    <ClCompile Include="debuging_01.cpp" />
+    <ClCompile Include="baekjoon_step_7_10.cpp" />
     <ClCompile Include="kkk.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
