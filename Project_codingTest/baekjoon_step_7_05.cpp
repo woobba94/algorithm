@@ -1,7 +1,7 @@
 //#include <iostream>
 //using namespace std;
 //
-////n이 10 이하일 때 사용가능한 이항계수 알고리즘
+//// n이 10 이하일 때 사용가능한 이항계수 알고리즘
 //int cal(int n, int k);
 //int main()
 //{
