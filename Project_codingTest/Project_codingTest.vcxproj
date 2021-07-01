@@ -219,6 +219,7 @@
     <ClCompile Include="baekjoon_step_9_07.cpp" />
     <ClCompile Include="baekjoon_step_9_08.cpp" />
     <ClCompile Include="baekjoon_step_9_10.cpp" />
+    <ClCompile Include="baekjoon_step_9_11.cpp" />
     <ClCompile Include="kkk.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
