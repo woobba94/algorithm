@@ -143,6 +143,7 @@
     <ClCompile Include="baekjoon_step_10_01.cpp" />
     <ClCompile Include="baekjoon_step_10_02.cpp" />
     <ClCompile Include="baekjoon_step_10_03.cpp" />
+    <ClCompile Include="baekjoon_step_10_04.cpp" />
     <ClCompile Include="baekjoon_step_5_06.cpp" />
     <ClCompile Include="baekjoon_step_1_08.cpp" />
     <ClCompile Include="baekjoon_step_1_01.cpp" />
