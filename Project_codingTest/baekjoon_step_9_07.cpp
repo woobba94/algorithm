@@ -1,90 +1,50 @@
 //#include <iostream>
-//#include <deque>
-//#include <string>
+//#include <vector>
 //
 //using namespace std;
 //
-//void func(deque <int> que, string str, int n);
+//void func(vector <int> vec, vector <int>& result);
 //int main()
 //{
-//	ios_base::sync_with_stdio(0);
+// 	ios::sync_with_stdio(false);
 //	cin.tie(0);
+//	int n = 0;
+//	cin >> n;
+//	vector <int> vec;
+//	vector <int> result(n, -1);
 //
-//    int n;
-//    cin >> n;
+//	while (n--)
+//	{
+//		int temp = 0;
+//		cin >> temp;
+//		vec.push_back(temp);
+//	}
 //
-//    deque<int> que; // 정수형 큐 선언. 
-//    string str;
-//
-//    func(que, str, n);
+//	func(vec, result);
+//	for (int i = 0; i < result.size(); i++)
+//	{
+//		cout << result[i] << " ";
+//	}
 //}
 //
-//void func(deque <int> que, string str, int n)
+//void func(vector <int> vec, vector <int>& result)
 //{
-//    for (int i = 0; i < n; i++) 
-//    {
-//        cin >> str;
-//        // empty 명령어일때 
-//        if (str == "empty")
-//        {
-//            // 큐가 비어있을때
-//            if (que.empty())
-//            {
-//                cout << 1 << endl;
-//            }
-//            else
-//            {
-//                cout << 0 << endl;
-//            }
-//        }
-//        // push 명령어 일때. 
-//        else if (str == "push") 
-//        { 
-//            int num;
-//            cin >> num;
-//            que.push_back(num);
-//        }
-//        // pop 명령어 일때. 
-//        else if (str == "pop") 
-//        {    
-//            // 큐가 안비어있으면
-//            if (que.empty() == false)
-//            {
-//                cout << que.front() << endl;
-//                que.pop_front();
-//            }
-//            else 
-//            {
-//                cout << "-1" << endl;
-//            }
-//        }
-//        // size 명령어 일때
-//        else if (str == "size") 
-//        {       
-//            cout << que.size() << endl;
-//        }
-//        // front 명령어 일때. 
-//        else if (str == "front") 
-//        {        
-//            // 큐가 안비어있으면
-//            if (que.empty() == false)
-//            {
-//                cout << que.front() << endl;
-//            }
-//            else 
-//            {
-//                cout << "-1" << endl;
-//            }
-//        }
-//        // back 명령어 일때. 
-//        else if (str == "back") {
-//            // 큐가 안비어있으면
-//            if (que.empty() == false)
-//            {
-//                cout << que.back() << endl;
-//            }
-//            else cout << -1 << endl;
-//                
-//        }
-//    }
+//	bool isFind = false;
+//
+//	for (int i = 0; i < vec.size(); i++)
+//	{
+//		isFind = false;
+//		for (int j = i; j < vec.size() - 1; j++)
+//		{
+//			if (isFind == false)
+//			{
+//				if (vec[i] < vec[j + 1])
+//				{
+//					isFind = true;
+//					result[i] = vec[j + 1];
+//					break;
+//				}
+//			}
+//		}
+//	}
 //}

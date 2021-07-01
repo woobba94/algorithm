@@ -4,55 +4,87 @@
 //
 //using namespace std;
 //
-//int func(deque <int> que, int n);
+//void func(deque <int> que, string str, int n);
 //int main()
 //{
-//    ios_base::sync_with_stdio(0);
-//    cin.tie(0);
+//	ios_base::sync_with_stdio(0);
+//	cin.tie(0);
 //
 //    int n;
 //    cin >> n;
 //
-//    deque<int> que; // 정수형 큐 선언.
+//    deque<int> que; // 정수형 큐 선언. 
+//    string str;
 //
-//    cout << func(que, n);
+//    func(que, str, n);
 //}
 //
-//int func(deque <int> que, int n)
+//void func(deque <int> que, string str, int n)
 //{
-//    int result = -1;
-//
-//    // n부터 1까지 카드쌓음
-//    for (int i = n; i > 0; i--)
+//    for (int i = 0; i < n; i++) 
 //    {
-//        que.push_back(i);
-//    }
-//
-//
-//    while (true)
-//    {
-//        // 카드가 없으면 리턴
-//        if (que.empty() == true)
+//        cin >> str;
+//        // empty 명령어일때 
+//        if (str == "empty")
 //        {
-//            return result;
-//        }
-//        else
-//        {
-//            // 카드가 두장 이상일때
-//            if (que.size() > 1)
+//            // 큐가 비어있을때
+//            if (que.empty())
 //            {
-//                // 위에 있는카드 버림
-//                que.pop_back();
-//                // 아래 위치에 위의 카드 복사
-//                que.push_front(que.back());
-//                // 위의 카드 버림
-//                que.pop_back();
+//                cout << 1 << endl;
 //            }
 //            else
 //            {
-//                result = que.front();
-//                return result;
+//                cout << 0 << endl;
 //            }
+//        }
+//        // push 명령어 일때. 
+//        else if (str == "push") 
+//        { 
+//            int num;
+//            cin >> num;
+//            que.push_back(num);
+//        }
+//        // pop 명령어 일때. 
+//        else if (str == "pop") 
+//        {    
+//            // 큐가 안비어있으면
+//            if (que.empty() == false)
+//            {
+//                cout << que.front() << endl;
+//                que.pop_front();
+//            }
+//            else 
+//            {
+//                cout << "-1" << endl;
+//            }
+//        }
+//        // size 명령어 일때
+//        else if (str == "size") 
+//        {       
+//            cout << que.size() << endl;
+//        }
+//        // front 명령어 일때. 
+//        else if (str == "front") 
+//        {        
+//            // 큐가 안비어있으면
+//            if (que.empty() == false)
+//            {
+//                cout << que.front() << endl;
+//            }
+//            else 
+//            {
+//                cout << "-1" << endl;
+//            }
+//        }
+//        // back 명령어 일때. 
+//        else if (str == "back") {
+//            // 큐가 안비어있으면
+//            if (que.empty() == false)
+//            {
+//                cout << que.back() << endl;
+//            }
+//            else cout << -1 << endl;
+//                
 //        }
 //    }
 //}

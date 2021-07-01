@@ -7,6 +7,8 @@
 //
 //int main()
 //{
+// 	ios::sync_with_stdio(false);
+//	cin.tie(0);
 //	vector <vector<int>> vec(1001);
 //	int n = 0, k = 0;
 //

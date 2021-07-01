@@ -9,6 +9,8 @@
 //
 //int main()
 //{
+// 	ios::sync_with_stdio(false);
+//	cin.tie(0);
 //    vector <vector <int>> matrixA(MAX_SIZE);
 //    vector <vector <int>> matrixB(MAX_SIZE);
 //    vector <vector <int>> result(MAX_SIZE);
