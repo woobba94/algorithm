@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="baekjoon_step_10_01.cpp" />
     <ClCompile Include="baekjoon_step_5_06.cpp" />
     <ClCompile Include="baekjoon_step_1_08.cpp" />
     <ClCompile Include="baekjoon_step_1_01.cpp" />
@@ -221,6 +222,7 @@
     <ClCompile Include="baekjoon_step_9_10.cpp" />
     <ClCompile Include="baekjoon_step_9_11.cpp" />
     <ClCompile Include="baekjoon_step_9_12.cpp" />
+    <ClCompile Include="baekjoon_step_9_13.cpp" />
     <ClCompile Include="kkk.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
