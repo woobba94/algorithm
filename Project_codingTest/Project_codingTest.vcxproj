@@ -233,7 +233,7 @@
     </ClCompile>
     <ClCompile Include="programmers_step_1.cpp" />
     <ClCompile Include="baekjoon_step_9_09.cpp" />
-    <ClCompile Include="소스.cpp" />
+    <ClCompile Include="baekjoon_step_11_02.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

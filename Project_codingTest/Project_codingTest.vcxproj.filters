@@ -285,7 +285,7 @@
     <ClCompile Include="baekjoon_step_11_01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="소스.cpp">
+    <ClCompile Include="baekjoon_step_11_02.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
