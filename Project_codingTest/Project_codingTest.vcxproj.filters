@@ -306,5 +306,14 @@
     <ClCompile Include="0002_1978.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0003_1929.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0005_1929.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0004_1929.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
