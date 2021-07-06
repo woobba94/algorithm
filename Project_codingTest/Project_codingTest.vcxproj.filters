@@ -366,10 +366,13 @@
     <ClCompile Include="0021_1699.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2022_1699.cpp">
+    <ClCompile Include="0022_1699.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="0023_11051.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0024_1629.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
