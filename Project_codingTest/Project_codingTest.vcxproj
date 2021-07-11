@@ -193,6 +193,7 @@
     <ClCompile Include="0051_1717.cpp" />
     <ClCompile Include="0052_stack.cpp" />
     <ClCompile Include="0053_dequeue.cpp" />
+    <ClCompile Include="0054_1049.cpp" />
     <ClCompile Include="baekjoon_important_01_01.cpp" />
     <ClCompile Include="baekjoon_important_01_02.cpp" />
     <ClCompile Include="baekjoon_important_01_03.cpp" />
