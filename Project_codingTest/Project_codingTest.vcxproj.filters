@@ -459,5 +459,8 @@
     <ClCompile Include="0052_stack.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0053_dequeue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
