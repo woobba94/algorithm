@@ -1,10 +1,10 @@
 //#include <iostream>
 //using namespace std;
 //
+//int arr[9] = {};
+//
 //int main()
 //{
-//	int arr[9] = {};
-//
 //	for (int i = 0; i < 9; i++)
 //	{
 //		cin >> arr[i];
@@ -21,6 +21,8 @@
 //			max = arr[i];
 //		}
 //	}
+//
 //	cout << max << endl;
 //	cout << index + 1;
+//
 //}
