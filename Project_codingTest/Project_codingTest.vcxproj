@@ -225,6 +225,7 @@
     <ClCompile Include="0083_1152.cpp" />
     <ClCompile Include="0084_10809.cpp" />
     <ClCompile Include="0085_2675.cpp" />
+    <ClCompile Include="0086_2750.cpp" />
     <ClCompile Include="baekjoon_important_01_01.cpp" />
     <ClCompile Include="baekjoon_important_01_02.cpp" />
     <ClCompile Include="baekjoon_important_01_03.cpp" />
