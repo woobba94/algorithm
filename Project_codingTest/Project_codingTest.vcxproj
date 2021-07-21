@@ -266,6 +266,7 @@
     <ClCompile Include="0124_2851.cpp" />
     <ClCompile Include="0125_boj_competition_4.cpp" />
     <ClCompile Include="0126_2960.cpp" />
+    <ClCompile Include="0127_1357.cpp" />
     <ClCompile Include="baekjoon_important_01_01.cpp" />
     <ClCompile Include="baekjoon_important_01_02.cpp" />
     <ClCompile Include="baekjoon_important_01_03.cpp" />
