@@ -18,6 +18,10 @@
 //
 //	if(getSec(now) > getSec(target))
 //		needTime = 86400 - getSec(now) + getSec(target);
+//	else if (getSec(now) == getSec(target))
+//	{
+//		needTime = 86400;
+//	}
 //	else
 //		needTime = getSec(target) - getSec(now);
 //	
