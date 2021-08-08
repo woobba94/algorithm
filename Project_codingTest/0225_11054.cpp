@@ -1,70 +1,61 @@
-#include <iostream>
-using namespace std;
-
-int dp[1001] = {};
-
-int main()
-{
-	int n;
-	cin >> n;
-	int* arr = new int[n];
-
-	for (int i = 0; i < n; i++)
-	{
-		cin >> arr[i];
-	}
-
-	bool isUp = true;
-	int index = 0;
-	dp[index]++;
-	for (int i = 1; i < n; i++)
-	{
-		if (isUp == false)
-		{
-			// 계속 내려가면
-			if (arr[i - 1] > arr[i])
-			{
-				dp[index]++;
-			}
-			// 위로 꺾이면
-			else
-			{
-				isUp = true;
-				index++;
-				dp[index]++;
-				dp[index]++;
-			}
-				
-		}
-		else
-		{
-			// 계속 올라가면
-			if (arr[i - 1] < arr[i])
-			{
-				dp[index]++;
-			}
-			// 올라가다가 내려가면
-			else
-			{
-				isUp = false;
-				dp[index]++;
-			}
-		}
-	}
-
-	int max = 0;
-	for (int i = 0; i < index + 1; i++)
-	{
-		if (max < dp[i])
-			max = dp[i];
-	}
-	cout << max;
-}
-
-//dp[1] = 1;
-//dp[2] = 2;
+//#include <iostream>
+//using namespace std;
 //
-//if (arr[0] > arr[1] && arr[1] < arr[2])
+//int upDP[1001] = {};
+//int downDP[1001] = {};
+//
+//int getMax(int a, int b);
+//int main()
 //{
-//	dp[3] = 2;
+//	int n;
+//	cin >> n;
+//	int* arr = new int[n + 1];
+//
+//	for (int i = 1; i < n + 1; i++)
+//	{
+//		cin >> arr[i];
+//	}
+//
+//    // dp 최소값 1(최소 1개이므로)
+//    // 
+//    // 감소수열 크기
+//    for (int i = n; i > 0; i--)
+//    {
+//        downDP[i] = 1;
+//        for (int j = n; j >= i; j--)
+//        {
+//            if (arr[i] > arr[j] && downDP[j] + 1 > downDP[i])
+//            {
+//                downDP[i] = downDP[j] + 1;
+//            }
+//        }
+//    }
+//
+//    // 증가수열 크기
+//    for (int i = 1; i < n + 1; i++)
+//    {
+//        upDP[i] = 1;
+//        // i보다 낮은값들을 검사
+//        for (int j = 1; j <= i; j++)
+//        {
+//            if (arr[j] < arr[i] && upDP[i] < upDP[j] + 1)
+//            {
+//                upDP[i] = upDP[j] + 1;
+//            }
+//        }
+//    }
+//
+//    int max = 0;
+//    for (int i = 0; i < n + 1; i++)
+//    {
+//        max = getMax(max, upDP[i] + downDP[i] - 1);
+//    }
+//    cout << max;
+//}
+//
+//int getMax(int a, int b)
+//{
+//    if (a < b)
+//        return b;
+//    return a;
 //}
