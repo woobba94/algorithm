@@ -26,3 +26,4 @@
 //{
 //	return a * b / getGCD(a, b);
 //}
+//
