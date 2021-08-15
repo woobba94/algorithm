@@ -406,6 +406,7 @@
     <ClCompile Include="0263_20300.cpp" />
     <ClCompile Include="0264_15720.cpp" />
     <ClCompile Include="0265_21313.cpp" />
+    <ClCompile Include="0266_20937.cpp" />
     <ClCompile Include="baekjoon_important_01_01.cpp" />
     <ClCompile Include="baekjoon_important_01_02.cpp" />
     <ClCompile Include="baekjoon_important_01_03.cpp" />
