@@ -24,10 +24,10 @@
 //		num /= 8;
 //	}
 //
-//	// 배열의 요소를 역순으로 출력
+//	// 역순 출력
 //	for (int i = output.length() - 1; i >= 0; i--)
 //	{
-//		printf("%c", output[i]);
+//		cout << output[i];
 //	}
 //}
 //
@@ -37,7 +37,7 @@
 //	if (k == 0)
 //		return 1;
 //	k--;
-//	while(k--)
+//	while (k--)
 //	{
 //		result *= num;
 //	}
