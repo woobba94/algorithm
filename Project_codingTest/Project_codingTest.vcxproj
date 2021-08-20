@@ -448,6 +448,7 @@
     <ClCompile Include="0304_5063.cpp" />
     <ClCompile Include="0305_10833.cpp" />
     <ClCompile Include="0306_2506.cpp" />
+    <ClCompile Include="0307_2965.cpp" />
     <ClCompile Include="baekjoon_important_01_01.cpp" />
     <ClCompile Include="baekjoon_important_01_02.cpp" />
     <ClCompile Include="baekjoon_important_01_03.cpp" />

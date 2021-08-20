@@ -1227,5 +1227,8 @@
     <ClCompile Include="0306_2506.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0307_2965.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
