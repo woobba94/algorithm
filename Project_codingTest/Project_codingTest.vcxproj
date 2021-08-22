@@ -456,6 +456,7 @@
     <ClCompile Include="0312_baseConvert.cpp" />
     <ClCompile Include="0313_2745.cpp" />
     <ClCompile Include="0314_3460.cpp" />
+    <ClCompile Include="0315_15719.cpp" />
     <ClCompile Include="baekjoon_important_01_01.cpp" />
     <ClCompile Include="baekjoon_important_01_02.cpp" />
     <ClCompile Include="baekjoon_important_01_03.cpp" />
