@@ -1341,5 +1341,8 @@
     <ClCompile Include="0343_1233.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0344_6502.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
