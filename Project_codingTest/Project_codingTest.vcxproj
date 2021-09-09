@@ -505,7 +505,8 @@
     <ClCompile Include="0360_18511.cpp" />
     <ClCompile Include="0361_18511.cpp" />
     <ClCompile Include="0362_3111.cpp" />
-    <ClCompile Include="0363_test.cpp" />
+    <ClCompile Include="0363_777777.cpp" />
+    <ClCompile Include="0364_10935.cpp" />
     <ClCompile Include="baekjoon_important_01_01.cpp" />
     <ClCompile Include="baekjoon_important_01_02.cpp" />
     <ClCompile Include="baekjoon_important_01_03.cpp" />
