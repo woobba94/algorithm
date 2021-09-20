@@ -3,11 +3,8 @@
 //using namespace std;
 //
 //string result;
-//int result2 = 0;
-//int x, base, temp;
+//int x, base, d;
 //void calc(int n);
-//void calc2(int n);
-//int getPow(int base, int k);
 //int main()
 //{
 //	cin >> x >> base;
@@ -16,49 +13,34 @@
 //		cout << 0;
 //		return 0;
 //	}
-//	if(base > 0)
-//		calc(x);
-//	else
-//	{
-//		calc2(x);
-//	}
-//	cout << result2;
-//}
-//void calc2(int n)
-//{
-//	int k = 0;
-//	while (n)
-//	{
-//		result2 += n % base * getPow(base, k);
-//		n /= 10;
-//		k++;
-//	}
-//}
-//
-//int getPow(int base, int k)
-//{
-//	int pow = 1;
-//	if (k == 0) return pow;
-//	while (k--)
-//	{
-//		pow *= base;
-//	}
-//	return pow;
+//	calc(x);
+//		
+//	cout << result;
 //}
 //
 //void calc(int n)
 //{
-//	if (n < 0)
+//	if (0 < base && n < 0)
 //	{
 //		result += '-';
 //		n *= -1;
 //	}
-//	if (n) 
+//	if (n)
 //	{
-//		calc(n / base);
-//		temp = n % base;
-//		if (temp <= 9)
-//			result += (temp + '0');
-//		else result += temp - 10 + 'A';
+//		int temp = n / base;
+//		if (base < 0 && n % base < 0)
+//		{
+//			temp++;
+//		}
+//		calc(temp);
+//
+//		d = n % base;
+//		if(base < 0 && d < 0)
+//		{
+//			d += -base;
+//		}
+//		if (d <= 9)
+//			result += (d + '0');
+//		else result += d - 10 + 'A';
 //	}
 //}
