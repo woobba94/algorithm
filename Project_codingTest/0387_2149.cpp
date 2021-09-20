@@ -26,24 +26,24 @@
 //
 //	vector<pair<int, int>> changeIndex;
 //
-//	for (int i = keySize - 1; i >= 0; i--)
+//	for (int i = 0; i < keySize; i++)
 //	{
-//		char max = 0;
-//		int maxIndex = -1;
-//		for (int j = i; j >= 0; j--)
+//		char min = 97;
+//		int minIndex = -1;
+//		for (int j = i; j < keySize; j++)
 //		{
-//			if (max < key[j])
+//			if (min > key[j])
 //			{
-//				max = key[j];
-//				maxIndex = j;
+//				min = key[j];
+//				minIndex = j;
 //			}
 //		}
-//		if (i != maxIndex && maxIndex != -1)
+//		if (i != minIndex && minIndex != -1)
 //		{
 //			char temp = key[i];
-//			key[i] = key[maxIndex];
-//			key[maxIndex] = temp;
-//			pair <int, int> ptemp = make_pair(i, maxIndex);
+//			key[i] = key[minIndex];
+//			key[minIndex] = temp;
+//			pair <int, int> ptemp = make_pair(i, minIndex);
 //			changeIndex.push_back(ptemp);
 //		}
 //	}
