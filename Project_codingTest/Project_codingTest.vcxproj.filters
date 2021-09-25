@@ -1569,5 +1569,8 @@
     <ClCompile Include="0418_3029.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0419_1264.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
