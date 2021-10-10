@@ -594,6 +594,7 @@
     <ClCompile Include="0444_15881.cpp" />
     <ClCompile Include="0445_1260.cpp" />
     <ClCompile Include="0446_2667.cpp" />
+    <ClCompile Include="0447_dfs_stack.cpp" />
     <ClCompile Include="baekjoon_important_01_01.cpp" />
     <ClCompile Include="baekjoon_important_01_02.cpp" />
     <ClCompile Include="baekjoon_important_01_03.cpp" />
